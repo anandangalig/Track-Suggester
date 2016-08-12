@@ -1,7 +1,15 @@
+body {
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  color: #3b3a36;
+  background-color: #e9ece5;
+}
+
+.jumbotron {
+  background-color: #c0dfd9;
+}
 .container-fluid {
-  width: 90%;
-  margin-top: 5%;
-  margin-bottom: 10%;
+  margin-left: 5%;
+  padding-bottom: 5%;
 }
 
 label {
@@ -13,6 +21,7 @@ img {
   height: auto;
   margin-left: 50px;
   margin-right: 0;
+  border-radius: 15%;
 }
 
  form {
@@ -39,15 +48,16 @@ img {
   border-radius: 5px;
   width:70%;
   height: auto;
-
 }
 
 .resultImage {
   float: left;
+  padding-left: 0;
 }
 
 .paragraph {
   float: left;
-  padding-left: 35px;
-  padding-right: 35px;
+  padding-left: 10;
+  padding-right: 0;
+  margin: 10px;
 }

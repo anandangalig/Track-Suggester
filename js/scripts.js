@@ -11,12 +11,30 @@ $(document).ready(function() {
 
     if (frontOrBack === "frontEnd") {
       $("#cssDesign").show();
+      $("#cSharpJava").hide();
+      $("#androidJava").hide();
+      $("#rubyRails").hide();
     } else if (frontOrBack === "backEnd" && popular === "cSharp") {
       $("#cSharpJava").show();
+      $("#cssDesign").hide();
+      $("#androidJava").hide();
+      $("#rubyRails").hide();
     } else if (frontOrBack === "backEnd" && popular === "ruby") {
       $("#rubyRails").show();
+      $("#cssDesign").hide();
+      $("#cSharpJava").hide();
+      $("#androidJava").hide();
     } else if (frontOrBack === "backEnd" && popular === "java") {
       $("#androidJava").show();
+      $("#cssDesign").hide();
+      $("#cSharpJava").hide();
+      $("#rubyRails").hide();
     }
+    else {
+      alert("Please enter more information and try again")
+    }
+
+    $(".nameInput").text(name);
+    $(".whyAnswer").text(why);
   });
 });
