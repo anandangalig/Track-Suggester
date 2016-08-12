@@ -15,7 +15,27 @@
       <h3> Please fill out this short survey based on your interest: <h3>
 
       <form id="survey">
-        
+
+        <label for="popular">Some areas of the industry prefer certain types of languages. Think about where you would like to work and pick one of the following: </label>
+        <select class="form-control" id="popular">
+          <option value="cSharp">Popular with Big Enterprises for internal and business softwares</option>
+          <option value="ruby">Popular with Start-Up for quick deployment</option>
+          <option value="java">Popular with Android and High-Performance Application</option>
+        </select>
+
+        <label>Now, think about if you want to work on the Front-End or the Back-End: </label>
+        <div class="radio">
+          <label>
+            <input type="radio" name="frontOrBack" value="frontEnd">Front-End: If you enjoy designing, styling, and working on the layout of the web page (i.e. part of the web that you can see and interact with).
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="frontOrBack" value="backEnd">Back-End: If you are more interested in behind-the-scene workings, such as content management systems, databases, servers, and applications. 
+          </label>
+        </div>
+
+
       </form>
 
     </div>
