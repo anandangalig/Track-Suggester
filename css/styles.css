@@ -19,7 +19,7 @@ img {
    width: 60%;
  }
 
-/*#cssDesign {
+#cssDesign {
   display: none;
 }
 
@@ -33,7 +33,7 @@ img {
 
 #androidJava {
   display: none;
-}*/
+}
 
 #surveyPic {
   border-radius: 5px;
@@ -44,4 +44,10 @@ img {
 
 .resultImage {
   float: left;
+}
+
+.paragraph {
+  float: left;
+  padding-left: 35px;
+  padding-right: 35px;
 }
