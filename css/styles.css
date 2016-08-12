@@ -1,5 +1,7 @@
 .container-fluid {
   width: 90%;
+  margin-top: 5%;
+  margin-bottom: 10%;
 }
 
 label {
@@ -7,7 +9,39 @@ label {
 }
 
 img {
-  border-radius: 5px;
-  width:80%;
+  width:150px;
   height: auto;
+  margin-left: 50px;
+  margin-right: 0;
+}
+
+ form {
+   width: 60%;
+ }
+
+/*#cssDesign {
+  display: none;
+}
+
+#cSharpJava {
+  display: none;
+}
+
+#rubyRails {
+  display: none;
+}
+
+#androidJava {
+  display: none;
+}*/
+
+#surveyPic {
+  border-radius: 5px;
+  width:70%;
+  height: auto;
+
+}
+
+.resultImage {
+  float: left;
 }
