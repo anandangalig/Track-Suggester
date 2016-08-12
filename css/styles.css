@@ -1,0 +1,13 @@
+.container-fluid {
+  width: 90%;
+}
+
+label {
+  font-size: 20px;
+}
+
+img {
+  border-radius: 5px;
+  width:80%;
+  height: auto;
+}
