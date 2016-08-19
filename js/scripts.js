@@ -6,7 +6,7 @@ $(document).ready(function() {
     var email = $("input#email").val();
     var skillLevel = $("#skillLevel").val();
     var why = $("input#why").val();
-    var popular = $("#popular").val();
+    var companyType = $("#companyType").val();
     var frontOrBack = $("input:radio[name=frontOrBack]:checked").val();
 
     if (frontOrBack === "frontEnd") {
@@ -14,17 +14,17 @@ $(document).ready(function() {
       $("#cSharpJava").hide();
       $("#androidJava").hide();
       $("#rubyRails").hide();
-    } else if (frontOrBack === "backEnd" && popular === "cSharp") {
+    } else if (frontOrBack === "backEnd" && companyType === "bigCompany") {
       $("#cSharpJava").show();
       $("#cssDesign").hide();
       $("#androidJava").hide();
       $("#rubyRails").hide();
-    } else if (frontOrBack === "backEnd" && popular === "ruby") {
+    } else if (frontOrBack === "backEnd" && companyType === "startUp") {
       $("#rubyRails").show();
       $("#cssDesign").hide();
       $("#cSharpJava").hide();
       $("#androidJava").hide();
-    } else if (frontOrBack === "backEnd" && popular === "java") {
+    } else if (frontOrBack === "backEnd" && companyType === "android") {
       $("#androidJava").show();
       $("#cssDesign").hide();
       $("#cSharpJava").hide();
